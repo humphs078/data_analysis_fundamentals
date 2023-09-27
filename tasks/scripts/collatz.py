@@ -7,6 +7,7 @@
 lower = 1
 upper = 10001
 
+
 def collatz(number):
   collatz_sequence_list=[]
   loop_list = [4, 2, 1]
