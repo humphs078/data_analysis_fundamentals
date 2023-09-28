@@ -23,7 +23,9 @@ def collatz(number):
       else:
         number=number*3+1
         collatz_sequence_list.append(number)
+        print(collatz_sequence_list)
 
+collatz(10)
 
 def collatz_orbit_lenghth(number):
   collatz_sequence_list_2 = []
@@ -44,14 +46,11 @@ for x in range(lower, upper):
   list.append(q)
 
 number = [x for x in range(lower, upper)]
-print(number)
+# print(number)
 
 print(list)
 
-data = {
-  "number": number,
-  "length": list
-}
+data = {"number": number,"length": list}
 
 df = pd.DataFrame(data)
 print(df)
