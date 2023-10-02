@@ -18,10 +18,8 @@ The Collatz conjecture is often thought of as the simplest impossible problem. I
 
 The script collatz.py runs from the command line and will check if the Collatz Conjecture is true for each number in a range of values. The range of values to be checked are passed as command line arguments. The script will accept a range of positive integer values as an a command line argument. For example to check from 1 to 10000 enter the following command into the bash shell.
 
-```
-function test() {
-  console.log("python collatz.py 1 10000");
-}
+```bash
+python collatz.py 1 10000
 ```
 
 The script will output an indication of any values that the Collatz Conjecture does or does not hold true for in the given range.
