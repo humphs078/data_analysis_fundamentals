@@ -5,7 +5,7 @@ Data repository for the Fundamentals of Data Analysis module
 ## Tasks
 
 ### Task 1 - Collatz Conjecture
-*Verify, using Python, that the conjecture is true for the first 10,000 positive integers.*
+**Task -** *Verify, using Python, that the conjecture is true for the first 10,000 positive integers.*
 
 Named after mathematician Lothar Collatz (https://en.wikipedia.org/wiki/Lothar_Collatz), the Collatz conjecture (https://en.wikipedia.org/wiki/Collatz_conjecture) asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1.
 
