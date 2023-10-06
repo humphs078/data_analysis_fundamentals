@@ -4,7 +4,7 @@ Data repository for the Fundamentals of Data Analysis module
 
 ## Tasks
 
-### Task 1 - Collatz Conjecture
+### [Task 1 - Collatz Conjecture](/tasks/task_1/collatz.py)
 **Task -** *Verify, using Python, that the conjecture is true for the first 10,000 positive integers.*
 
 Named after mathematician Lothar Collatz (https://en.wikipedia.org/wiki/Lothar_Collatz), the Collatz conjecture (https://en.wikipedia.org/wiki/Collatz_conjecture) asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1.
@@ -28,4 +28,16 @@ python collatz.py 1 10000
 
 The script will output an indication of any values that the Collatz Conjecture does or does not hold true for in the given range.
 
-References: https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/
+#### References
+
+Wikipedia. (2022). Lothar Collatz. [online] Available at: https://en.wikipedia.org/wiki/Lothar_Collatz.
+
+#### Background Reading
+
+bobbyhadz.com. (n.d.). Print a List without the Commas and Brackets in Python | bobbyhadz. [online] Available at: https://bobbyhadz.com/blog/python-print-list-without-commas-and-brackets [Accessed 6 Oct. 2023].
+
+Chaudhuri, D.A.K. (2020). Collatz Conjecture-the simplest impossible problem. [online] Cooking Cosmos. Available at: https://asischaudhuri.wordpress.com/2020/11/09/collatz-conjecture/ [Accessed 6 Oct. 2023].
+
+Machine Intelligence ? (2008). LaTeX – Multiline equations, systems and matrices. [online] Available at: https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/ [Accessed 6 Oct. 2023].
+
+www.w3schools.com. (n.d.). Python Try Except. [online] Available at: https://www.w3schools.com/python/python_try_except.asp. [Accessed 6 Oct. 2023].
