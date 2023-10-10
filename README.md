@@ -2,6 +2,19 @@
 
 Data repository for the Fundamentals of Data Analysis module
 
+## Contents
+[Notebooks](#notebooks)
+
+[Tasks](#tasks)
+
+[Task 1 - Collatz-Conjecture](#task-1---collatz-conjecture)
+
+[Project - Iris Data Set Analysis](#project)
+
+## Notebooks
+This repository contains 2 Jupyter Notebooks:
+1. [tasks](tasks.ipynb) - This note book contains the submission for the topic tasks
+
 ## Tasks
 
 ### [Task 1 - Collatz Conjecture](/tasks/task_1/collatz.py)
@@ -9,7 +22,7 @@ Data repository for the Fundamentals of Data Analysis module
 
 Named after mathematician Lothar Collatz (https://en.wikipedia.org/wiki/Lothar_Collatz), the Collatz conjecture (https://en.wikipedia.org/wiki/Collatz_conjecture) asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1.
 
-![Collatz Function](/images/what-is-the-collatz-conjecture-unsolved-mathematical-problems.png "Collatz Function")
+![Collatz Function](/images/illustrations/what-is-the-collatz-conjecture-unsolved-mathematical-problems.png "Collatz Function")
 
 The Collatz conjecture is often thought of as the simplest impossible problem. It has been suggested that a new understanding of maths will be required to solve the Collatz Conjecture. To date the Collatz Conjecture ha*
 
@@ -41,3 +54,38 @@ Chaudhuri, D.A.K. (2020). Collatz Conjecture-the simplest impossible problem. [o
 Machine Intelligence ? (2008). LaTeX – Multiline equations, systems and matrices. [online] Available at: https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/ [Accessed 6 Oct. 2023].
 
 www.w3schools.com. (n.d.). Python Try Except. [online] Available at: https://www.w3schools.com/python/python_try_except.asp. [Accessed 6 Oct. 2023].
+
+## Project
+
+**Problem Statement**:
+- create a notebook investigating the variables and data points within the well-known iris flower data set associated with Ronald A Fisher.
+- in the notebook, you should discuss the classification of each variable within the data set according to common variable types and scales of measurement in mathematics, statistics, and Python.
+- Select, demonstrate, and explain the most appropriate summary statistics to describe each variable.
+- Select, demonstrate, and explain the most appropriate plot(s) for each variable
+- The notebook should follow a cohesive narrative about the data set.
+---
+
+### Background
+
+The [Iris Data Set](https://en.wikipedia.org/wiki/Iris_flower_data_set) is a data set that consists 50 samples from 
+three species of Iris - Iris-setosa, Iris-virginica and Iris-versicolor. Each sample contains 4 measurements:
+1. Petal width
+2. Petal length
+3. Sepal width
+4. Sepal length
+
+This data set is an example of a multivariate data set and was popularised by statistician and biologist [Sir Ronald
+Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) in his 1936 paper entitled 
+[*"The use of multiple measurements in taxonomic problems"*](https://digital.library.adelaide.edu.au/dspace/bitstream/2440/15227/1/138.pdf)
+. The data was collected by [Dr. Edgar Anderson](https://en.wikipedia.org/wiki/Edgar_Anderson) from the Gaspé Peninsula
+in Canada. Two of the three species were collected from the same meadow, by the same person, using standard equipment 
+in order to minimise the risk of variation in the data samples arising from the way in which it was collected and 
+measured. Dr. Anderson is recognised as a significant contributor in the field of botanical genetics.
+
+As can be seen from the picture below the appearance of each species is similar. Sir Fisher's Analysis of the data set
+enabled accurate classification of the species from petal and sepal measurement and as a result the data set is 
+routinely used as a beginners dataset for machine learning purposes.
+
+![image 1](/images/illustrations/Iris_Image.png "Iris Species")
+
+---
