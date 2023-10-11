@@ -19,5 +19,5 @@ print(type(iris_ds_features))
 # print(iris.metadata) 
   
 # variable information 
-# print('\n')
-# print(iris.variables)
+print('\n')
+print(iris.variables)
