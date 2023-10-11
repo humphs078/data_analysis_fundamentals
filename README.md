@@ -1,19 +1,25 @@
 # data_analysis_fundamentals
+Author: Sean Humphreys
 
 Data repository for the Fundamentals of Data Analysis module
 
 ## Contents
 [Notebooks](#notebooks)
 
-[Tasks](#tasks)
+1. [Jupyter Notebooks](#notebooks)
 
-[Task 1 - Collatz-Conjecture](#task-1---collatz-conjecture)
+1. [Tasks](#tasks)
 
-[Project - Iris Data Set Analysis](#project)
+    1. [Task 1 - Collatz-Conjecture](#task-1---collatz-conjecture)
 
-## Notebooks
+2. [Project - Iris Data Set Analysis](#project)
+
+## Jupyter Notebooks
+Jupyter Notebooks are an interactive way to explain code, visualize data and share your ideas with others. Further information on Jupyter Notebooks can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
+
 This repository contains 2 Jupyter Notebooks:
-1. [tasks](tasks.ipynb) - This note book contains the submission for the topic tasks
+1. [tasks.ipynb](tasks.ipynb) - The *Tasks Jupyter Notebook* contains the submission for the module tasks.
+2. [project.ipynb](project.ipynb) - The *Project Jupyter Notebook* contains the 
 
 ## Tasks
 
@@ -41,15 +47,16 @@ python collatz.py 1 10000
 
 The script will output an indication of any values that the Collatz Conjecture does or does not hold true for in the given range.
 
-#### References
+#### Task 1 References
 
 Wikipedia. (2022). Lothar Collatz. [online] Available at: https://en.wikipedia.org/wiki/Lothar_Collatz.
 
-#### Background Reading
+#### Task 1 Background Reading
 
 bobbyhadz.com. (n.d.). Print a List without the Commas and Brackets in Python | bobbyhadz. [online] Available at: https://bobbyhadz.com/blog/python-print-list-without-commas-and-brackets [Accessed 6 Oct. 2023].
 
 Chaudhuri, D.A.K. (2020). Collatz Conjecture-the simplest impossible problem. [online] Cooking Cosmos. Available at: https://asischaudhuri.wordpress.com/2020/11/09/collatz-conjecture/ [Accessed 6 Oct. 2023].
+
 
 Machine Intelligence ? (2008). LaTeX – Multiline equations, systems and matrices. [online] Available at: https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/ [Accessed 6 Oct. 2023].
 
@@ -87,5 +94,13 @@ enabled accurate classification of the species from petal and sepal measurement 
 routinely used as a beginners dataset for machine learning purposes.
 
 ![image 1](/images/illustrations/Iris_Image.png "Iris Species")
+
+---
+
+## Markdown References
+
+GitHub. (n.d.). Markdown nested lists deeper than two levels don’t get indented. · Issue #4009 · go-gitea/gitea. [online] Available at: https://github.com/go-gitea/gitea/issues/4009 [Accessed 11 Oct. 2023].
+
+Meta Stack Exchange. (n.d.). How to write nested numbered lists. [online] Available at: https://meta.stackexchange.com/questions/85474/how-to-write-nested-numbered-lists [Accessed 11 Oct. 2023].
 
 ---
