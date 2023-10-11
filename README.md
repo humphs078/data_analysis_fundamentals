@@ -1,10 +1,11 @@
-# data_analysis_fundamentals ![python_logo](/images/illustrations/python_logo_mod_sh_title.png) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_title.png) ![markdown_logo](/images/illustrations/markdown_title.png) ![laytex_logo](/images/illustrations/laytex_title.png)
+# Fundamentals of Data Analysis Module Repository
+![python_logo](/images/illustrations/python_logo_mod_sh_title.png) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_title.png) ![markdown_logo](/images/illustrations/markdown_title.png) ![laytex_logo](/images/illustrations/laytex_title.png)
+
 Author: Sean Humphreys
 
 Data repository for the Fundamentals of Data Analysis module
 
 ## Contents
-
 
 1. [Jupyter Notebooks](#jupyter-notebooks)
 
@@ -13,22 +14,21 @@ Data repository for the Fundamentals of Data Analysis module
     1. [Task 1 - Collatz-Conjecture](#task-1---collatz-conjecture)
 
 2. [Project - Iris Data Set Analysis](#project)
-
+---
 ## Jupyter Notebooks  ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh.png)
-
 
 Jupyter Notebooks are an interactive way to explain code, visualize data and share your ideas with others. Further information on Jupyter Notebooks can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
 
-This repository contains 2 Jupyter Notebooks:
+This repository contains two Jupyter Notebooks:
 1. [tasks.ipynb](tasks.ipynb) - The *Tasks Jupyter Notebook* contains the submission for the module tasks.
-2. [project.ipynb](project.ipynb) - The *Project Jupyter Notebook* contains the 
-
+2. [project.ipynb](project.ipynb) - The *Project Jupyter Notebook* contains the submission for the module project.
+---
 ## Tasks
 
 ### [Task 1 - Collatz Conjecture](/tasks/task_1/collatz.py)
 **Task -** *Verify, using Python, that the conjecture is true for the first 10,000 positive integers.*
 
-Named after mathematician Lothar Collatz (https://en.wikipedia.org/wiki/Lothar_Collatz), the Collatz conjecture (https://en.wikipedia.org/wiki/Collatz_conjecture) asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1.
+Named after mathematician Lothar Collatz (https://en.wikipedia.org/wiki/Lothar_Collatz), the Collatz conjecture (https://en.wikipedia.org/wiki/Collatz_conjecture) asks whether repeating two simple arithmetic operations will eventually transform every positive integer into $1$.
 
 ![Collatz Function](/images/illustrations/what-is-the-collatz-conjecture-unsolved-mathematical-problems.png "Collatz Function")
 
@@ -45,7 +45,7 @@ The Collatz conjecture is often thought of as the simplest impossible problem. I
 
 [Python Script](/tasks/task_1/collatz.py) ![python logo](/images/illustrations/python_logo_mod_sh.png)
 
-The script collatz.py runs from the command line and will check if the Collatz Conjecture is true for each number in a range of values. The range of values to be checked are passed as command line arguments. The script will accept a range of positive integer values as an a command line argument. For example to check from 1 to 10000 enter the following command into the bash shell.
+The script collatz.py runs from the command line and will check if the Collatz Conjecture is true for each number in a range of values. The range of values to be checked are passed as command line arguments. The script will accept a range of positive integer values as an a command line argument. For example to check from $1$ to $10000$ enter the following command into the bash shell.
 
 ```bash
 python collatz.py 1 10000
@@ -67,7 +67,7 @@ Chaudhuri, D.A.K. (2020). Collatz Conjecture-the simplest impossible problem. [o
 Machine Intelligence ? (2008). LaTeX – Multiline equations, systems and matrices. [online] Available at: https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/ [Accessed 6 Oct. 2023].
 
 www.w3schools.com. (n.d.). Python Try Except. [online] Available at: https://www.w3schools.com/python/python_try_except.asp. [Accessed 6 Oct. 2023].
-
+---
 ## Project
 
 **Problem Statement**:
@@ -80,7 +80,7 @@ www.w3schools.com. (n.d.). Python Try Except. [online] Available at: https://www
 
 ### Background
 
-The [Iris Data Set](https://en.wikipedia.org/wiki/Iris_flower_data_set) is a data set that consists 50 samples from 
+The [Iris Data Set](https://en.wikipedia.org/wiki/Iris_flower_data_set) is a data set that consists of fifty samples from 
 three species of Iris - Iris-setosa, Iris-virginica and Iris-versicolor. Each sample contains 4 measurements:
 1. Petal width
 2. Petal length
