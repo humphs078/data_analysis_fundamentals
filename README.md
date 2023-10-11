@@ -1,12 +1,12 @@
-# data_analysis_fundamentals
+# data_analysis_fundamentals ![python_logo](/images/illustrations/python_logo_mod_sh_title.png) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_title.png) ![markdown_logo](/images/illustrations/markdown_title.png) ![laytex_logo](/images/illustrations/laytex_title.png)
 Author: Sean Humphreys
 
 Data repository for the Fundamentals of Data Analysis module
 
 ## Contents
-[Notebooks](#notebooks)
 
-1. [Jupyter Notebooks](#notebooks)
+
+1. [Jupyter Notebooks](#jupyter-notebooks)
 
 1. [Tasks](#tasks)
 
@@ -14,7 +14,9 @@ Data repository for the Fundamentals of Data Analysis module
 
 2. [Project - Iris Data Set Analysis](#project)
 
-## Jupyter Notebooks
+## Jupyter Notebooks  ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh.png)
+
+
 Jupyter Notebooks are an interactive way to explain code, visualize data and share your ideas with others. Further information on Jupyter Notebooks can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
 
 This repository contains 2 Jupyter Notebooks:
@@ -38,6 +40,10 @@ The Collatz conjecture is often thought of as the simplest impossible problem. I
 - For usability purposes the script should be able to handle any range of input values not just the first 10,000 positive integers.
 - The script will not run if negative integers, floating point decimals or strings are entered as arguments.
 - If these values are entered as arguments the script will give clear instruction to the end user of the correct format for arguments to be entered.
+
+[Jupyter Notebook with solution](tasks.ipynb) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_2.png)
+
+[Python Script](/tasks/task_1/collatz.py) ![python logo](/images/illustrations/python_logo_mod_sh.png)
 
 The script collatz.py runs from the command line and will check if the Collatz Conjecture is true for each number in a range of values. The range of values to be checked are passed as command line arguments. The script will accept a range of positive integer values as an a command line argument. For example to check from 1 to 10000 enter the following command into the bash shell.
 
