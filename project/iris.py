@@ -27,5 +27,5 @@ print(iris_ds_features.isnull().sum())
 # print(iris.metadata) 
 # print(iris_ds_features)
 # variable information 
-print('\n')
+
 print(iris.variables)

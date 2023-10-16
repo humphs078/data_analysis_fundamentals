@@ -41,6 +41,8 @@ The Collatz conjecture is often thought of as the simplest impossible problem. I
 - The script will not run if negative integers, floating point decimals or strings are entered as arguments.
 - If these values are entered as arguments the script will give clear instruction to the end user of the correct format for arguments to be entered.
 
+#### Solution
+
 [Jupyter Notebook with solution](tasks.ipynb) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_2.png)
 
 [Python Script](/tasks/task_1/collatz.py) ![python logo](/images/illustrations/python_logo_mod_sh.png)
@@ -67,6 +69,7 @@ Chaudhuri, D.A.K. (2020). Collatz Conjecture-the simplest impossible problem. [o
 Machine Intelligence ? (2008). LaTeX – Multiline equations, systems and matrices. [online] Available at: https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/ [Accessed 6 Oct. 2023].
 
 www.w3schools.com. (n.d.). Python Try Except. [online] Available at: https://www.w3schools.com/python/python_try_except.asp. [Accessed 6 Oct. 2023].
+
 ---
 ## Project
 
