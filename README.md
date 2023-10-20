@@ -12,6 +12,7 @@ Data repository for the Fundamentals of Data Analysis module
 1. [Tasks](#tasks)
 
     1. [Task 1 - Collatz-Conjecture](#task-1---collatz-conjecture)
+    2. [Task 2 - Penguins Variables](#task-2---penguins-variables)
 
 2. [Project - Iris Data Set Analysis](#project)
 ---
@@ -47,7 +48,7 @@ The Collatz conjecture is often thought of as the simplest impossible problem. I
 
 [Python Script](/tasks/task_1/collatz.py) ![python logo](/images/illustrations/python_logo_mod_sh.png)
 
-The script collatz.py runs from the command line and will check if the Collatz Conjecture is true for each number in a range of values. The range of values to be checked are passed as command line arguments. The script will accept a range of positive integer values as an a command line argument. For example to check from $1$ to $10000$ enter the following command into the bash shell.
+The script [collatz.py](/tasks/task_1/collatz.py) runs from the command line and will check if the Collatz Conjecture is true for each number in a range of values. The range of values to be checked are passed as command line arguments. The script will accept a range of positive integer values as an a command line argument. For example to check from $1$ to $10000$ enter the following command into the bash shell.
 
 ```bash
 python collatz.py 1 10000
@@ -55,20 +56,35 @@ python collatz.py 1 10000
 
 The script will output an indication of any values that the Collatz Conjecture does or does not hold true for in the given range.
 
-#### Task 1 References
+#### References
 
 Wikipedia. (2022). Lothar Collatz. [online] Available at: https://en.wikipedia.org/wiki/Lothar_Collatz.
 
-#### Task 1 Background Reading
+### [Task 2 - Penguins Variables](/tasks/task_2/penguins.py)
+**Task 2** - *Give an overview of the famous penguins data set, explaining the types of variables it contains. Suggest the types of variables that should be used to model them in Python, explaining your rationale.*
 
-bobbyhadz.com. (n.d.). Print a List without the Commas and Brackets in Python | bobbyhadz. [online] Available at: https://bobbyhadz.com/blog/python-print-list-without-commas-and-brackets [Accessed 6 Oct. 2023].
+The **Penguins** dataset contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica. The data was as part of the Palmer Station, Antarctica, Long-Term Ecological Research program and is also known as the Palmer Penguins dataset. The research paper on the Palmer Penguins dataset by Gorman, Williams and Fraser (2014) is available [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081#s2).
 
-Chaudhuri, D.A.K. (2020). Collatz Conjecture-the simplest impossible problem. [online] Cooking Cosmos. Available at: https://asischaudhuri.wordpress.com/2020/11/09/collatz-conjecture/ [Accessed 6 Oct. 2023].
+![image 1](images/illustrations/penguins.png "Palmer Penguins")
 
+Mednick, 2021
 
-Machine Intelligence ? (2008). LaTeX – Multiline equations, systems and matrices. [online] Available at: https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/ [Accessed 6 Oct. 2023].
+#### Solution
 
-www.w3schools.com. (n.d.). Python Try Except. [online] Available at: https://www.w3schools.com/python/python_try_except.asp. [Accessed 6 Oct. 2023].
+[Jupyter Notebook with solution](tasks.ipynb) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_2.png)
+
+[Python Script](/tasks/task_2/penguins.py) ![python logo](/images/illustrations/python_logo_mod_sh.png)
+
+The script [penguins.py](/tasks/task_2/penguins.py) runs from the command line and outputs a summary of the variables in the *Palmer Penguins* dataset. The script is run from the command line with the following command:
+
+```bash
+python penguins.py
+```
+#### References
+
+Gorman, K.B., Williams, T.D. and Fraser, W.R. (2014). Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis). PLoS ONE, 9(3), p.e90081. doi:https://doi.org/10.1371/journal.pone.0090081. [Accessed 16 Oct. 2023]
+
+PhD, G.M. (2021). Palmer penguins. [online] Gabe Mednick. Available at: https://www.gabemednick.com/post/penguin/ [Accessed 16 Oct. 2023].
 
 ---
 ## Project
