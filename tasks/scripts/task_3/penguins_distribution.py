@@ -9,17 +9,16 @@
 # import the pandas module used to read in the data set file as a data frame
 import pandas as pd
 import seaborn as sns
+import matplotlib.pyplot as plt
+
 penguins = sns.load_dataset('penguins')
+print(penguins)
 
-# check penguins is a pandas DataFrame
-print(type(penguins))
-print('\n')
+penguins_summary = penguins.describe()
 
-# print the first five rows of the dataset
-print(penguins.head())
-print('\n')
+flip = penguins.loc[penguins['species'] =='Adelie']['flipper_length_mm'].dropna().reset_index(drop=True)
+print(flip)
 
-# print a summary of the null values
-print(penguins.isnull().sum())
-print('\n')
-
+fig, axs = plt.subplots()
+axs.hist(flip, bins=30)
+plt.show()
