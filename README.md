@@ -13,6 +13,7 @@ Data repository for the Fundamentals of Data Analysis module
 
     1. [Task 1 - Collatz-Conjecture](#task-1---collatz-conjecture)
     2. [Task 2 - Penguins Variables](#task-2---penguins-variables)
+    3. [Task 3 - Penguins Probability Distribution](#task-3---penguins-probability-distribution)
 
 2. [Project - Iris Data Set Analysis](#project)
 ---
@@ -85,6 +86,24 @@ python penguins.py
 Gorman, K.B., Williams, T.D. and Fraser, W.R. (2014). Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis). PLoS ONE, 9(3), p.e90081. doi:https://doi.org/10.1371/journal.pone.0090081. [Accessed 16 Oct. 2023]
 
 PhD, G.M. (2021). Palmer penguins. [online] Gabe Mednick. Available at: https://www.gabemednick.com/post/penguin/ [Accessed 16 Oct. 2023].
+
+---
+### Task 3 - Penguins Probability Distribution
+
+**Task** - *For each of the variables in the penguins data set, suggest what probability distribution from the numpy random distributions list is the most appropriate to model the variable.*
+
+*In probability theory and statistics, a [probability distribution](https://en.wikipedia.org/wiki/Probability_distribution) is the mathematical function that gives the probabilities of occurrence of different possible outcomes for an experiment.* (Wikipedia Contributors, 2019).
+
+#### Solution
+
+[Jupyter Notebook with solution](tasks.ipynb) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_2.png)
+
+#### References
+
+Wikipedia Contributors (2019). Probability distribution. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/Probability_distribution. [Accessed 25 Oct. 2023]
+
+‌
+
 
 ---
 ## Project
