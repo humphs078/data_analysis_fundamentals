@@ -16,7 +16,8 @@ rows = penguins.shape[0]
 columns = penguins.shape[1]
 ds_type = type(penguins)
 null_values = penguins.isnull().sum()
-ds_5_rows = penguins.head()
+ds_first_5_rows = penguins.head()
+ds_last_5_rows = penguins.tail()
 species = penguins['species'].unique()
 islands = penguins['island'].unique()
 sex = penguins['sex'].unique()
@@ -33,7 +34,11 @@ penguins.info()
 
 # print the first five rows of the dataset
 print(f'\nThe first 5 rows of the {ds_name} are:\n'
-      f'{ds_5_rows}')
+      f'{ds_first_5_rows}')
+
+# print the last five rows of the dataset
+print(f'\nThe last 5 rows of the {ds_name} are:\n'
+      f'{ds_last_5_rows}')
 
 # print information on the categorical variables in the dataset
 print(f'\n***Categorical Variables***'
