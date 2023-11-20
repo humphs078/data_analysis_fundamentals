@@ -9,6 +9,8 @@ Data repository for the Fundamentals of Data Analysis module
 
 1. [Jupyter Notebooks](#jupyter-notebooks)
 
+2. [Python Libraries]
+
 1. [Tasks](#tasks)
 
     1. [Task 1 - Collatz-Conjecture](#task-1---collatz-conjecture)
@@ -21,10 +23,26 @@ Data repository for the Fundamentals of Data Analysis module
 
 Jupyter Notebooks are an interactive way to explain code, visualize data and share your ideas with others. Further information on Jupyter Notebooks can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
 
+To run this file in a fully interactive way the Jupyter Notebooks server must be installed on the local machine. Instructions on how to install Jupyter Notebooks server can be found [here](https://jupyter.org/install).
+
 This repository contains two Jupyter Notebooks:
 1. [tasks.ipynb](tasks.ipynb) - The *Tasks Jupyter Notebook* contains the submission for the module tasks.
 2. [project.ipynb](project.ipynb) - The *Project Jupyter Notebook* contains the submission for the module project.
+
 ---
+## Python Libraries ![python logo](/images/illustrations/python_logo_mod_sh.png)
+
+The following python libraries must be installed on the local machine to run the python scripts and notebooks in this repository:
+
++ matplotlib - `pip install matplotlib`
++ numpy - `pip install numpy`
++ pandas - `pip install pandas`
++ seaborn - `pip install seaborn`
++ sys - the sys package is part of python's standard library and does not need to be installed
++ ucimlrepo - to install - `pip install ucimlrepo`
+
+---
+
 ## Tasks
 
 ### [Task 1 - Collatz Conjecture](/tasks/task_1/collatz.py)
@@ -102,7 +120,22 @@ PhD, G.M. (2021). Palmer penguins. [online] Gabe Mednick. Available at: https://
 
 Wikipedia Contributors (2019). Probability distribution. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/Probability_distribution. [Accessed 25 Oct. 2023]
 
-‌
+---
+### Task 4 - Coin Toss Entropy
+
+Task - *Suppose you are flipping two coins, each with a probability p of giving heads. Plot the entropy of the total number of heads versus p.*
+
+*In information theory, the entropy of a random variable is the average level of "information", "surprise", or "uncertainty" inherent to the variable's possible outcomes.* (Wikipedia Contributors, 2019).
+
+Assumptions:
++ The coins used are unbiased coins, that is to say that there is an equal probability of of the coins landing on heads or tails.
+
+#### Solution
+
+[Jupyter Notebook with solution](tasks.ipynb) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_2.png)
+
+#### References
+Wikipedia Contributors (2019). Entropy (information theory). [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/Entropy_(information_theory). [Accessed 17 Nov. 2023].
 
 
 ---
