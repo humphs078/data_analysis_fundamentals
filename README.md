@@ -9,13 +9,14 @@ Data repository for the Fundamentals of Data Analysis module
 
 1. [Jupyter Notebooks](#jupyter-notebooks)
 
-2. [Python Libraries]
+2. [Python Libraries](#python-libraries-python-logo)
 
 1. [Tasks](#tasks)
 
     1. [Task 1 - Collatz-Conjecture](#task-1---collatz-conjecture)
     2. [Task 2 - Penguins Variables](#task-2---penguins-variables)
     3. [Task 3 - Penguins Probability Distribution](#task-3---penguins-probability-distribution)
+    4. [Task 4 - Coin Toss Entropy](#task-4---coin-toss-entropy)
 
 2. [Project - Iris Data Set Analysis](#project)
 ---
@@ -48,9 +49,10 @@ The following python libraries must be installed on the local machine to run the
 ### [Task 1 - Collatz Conjecture](/tasks/task_1/collatz.py)
 **Task -** *Verify, using Python, that the conjecture is true for the first 10,000 positive integers.*
 
-Named after mathematician Lothar Collatz (https://en.wikipedia.org/wiki/Lothar_Collatz), the Collatz conjecture (https://en.wikipedia.org/wiki/Collatz_conjecture) asks whether repeating two simple arithmetic operations will eventually transform every positive integer into $1$.
+Named after mathematician Lothar Collatz (https://en.wikipedia.org/wiki/Lothar_Collatz), the Collatz conjecture (https://en.wikipedia.org/wiki/Collatz_conjecture) asks whether repeating two simple arithmetic operations will eventually transform every positive integer into one.
 
-![Collatz Function](/images/illustrations/what-is-the-collatz-conjecture-unsolved-mathematical-problems.png "Collatz Function")
+$f(n) = \begin{cases} n/2 &\text{if } n = \text{even} \\
+(3n +1)/2 & \text{if } n = \text{odd} \end{cases}$
 
 The Collatz conjecture is often thought of as the simplest impossible problem. It has been suggested that a new understanding of maths will be required to solve the Collatz Conjecture. To date the Collatz Conjecture ha*
 
