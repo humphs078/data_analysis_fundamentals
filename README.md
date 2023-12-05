@@ -17,6 +17,7 @@ Data repository for the Fundamentals of Data Analysis module
     2. [Task 2 - Penguins Variables](#task-2---penguins-variables)
     3. [Task 3 - Penguins Probability Distribution](#task-3---penguins-probability-distribution)
     4. [Task 4 - Coin Toss Entropy](#task-4---coin-toss-entropy)
+    5. [Task 5 - Penguins Dataset Plots](#task-5-penguins-dataset-plots)
 
 2. [Project - Iris Data Set Analysis](#project)
 ---
@@ -139,8 +140,16 @@ Assumptions:
 #### References
 Wikipedia Contributors (2019). Entropy (information theory). [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/Entropy_(information_theory). [Accessed 17 Nov. 2023].
 
+### Task 5 Penguins Dataset Plots
+
+Task - *Create an appropriate individual plot for each of the variables in the penguin data set.*
+
+#### Solution
+
+[Jupyter Notebook with solution](tasks.ipynb) ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh_2.png)
 
 ---
+
 ## Project
 
 **Problem Statement**:
