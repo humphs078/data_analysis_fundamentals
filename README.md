@@ -49,7 +49,7 @@ git clone https://github.com/humphs078/data_analysis_fundamentals.git
 
 
 
-## Jupyter Notebooks  ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh.png)
+## Jupyter Notebooks ![jupyter_logo](/images/illustrations/jupyter_logo_mod_sh.png)
 
 Jupyter Notebooks are an interactive way to explain code, visualize data and share your ideas with others. Further information on Jupyter Notebooks can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
 
